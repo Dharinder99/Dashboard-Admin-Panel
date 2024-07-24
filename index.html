@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h2>Student Add</h2>
+        <form action="" method="POST">
+            <input type="text" name="name" placeholder="name" required />
+            <br /><br />
+            <select name="subject_id" id="subjects" required>
+                <option value="">Select Subject</option>
+                <option value="1">Math</option>
+                <option value="1">Physics</option>
+
+                <!-- @endforeach -->
+            </select>
+
+            <label for="male">gender</label>
+            <input type="radio" name="gender" id="male" />
+            <label for="female">gender</label>
+
+            <input type="radio" name="gender" id="female" />
+
+            <br /><br />
+            <select name="plan_id" id="plans" required>
+                <option value="">Select Plan</option>
+            </select>
+            <br /><br />
+            <input type="submit" />
+        </form>
+    </body>
+</html>
